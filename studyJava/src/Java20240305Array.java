@@ -15,5 +15,13 @@ public class Java20240305Array {
         for(int i = 0 ; i < 5 ; i++) {
             System.out.print(intArray3[i] + " ");
         }
+        System.out.println();
+        System.out.println("-------------------- 구분선 --------------------");
+
+        // 배열의 선언, 생성, 입력을 한번에 수행하는 코드
+        int[] intArray4 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        for(int i = 0 ; i < intArray4.length ; i++) {
+            System.out.print(intArray4[i] + " ");
+        }
     }
 }
